@@ -55,6 +55,9 @@ public class MainActivity extends Activity implements SensorEventListener {
     @Override
     public void onSensorChanged(SensorEvent event) {
         progressBar.setProgress((int) event.values[0]);
+
+
+        
     }
 
     @Override
